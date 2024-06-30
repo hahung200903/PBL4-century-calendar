@@ -1,12 +1,12 @@
 1) Khởi chạy chương trình:
-- Server:
+  - Server:
   
 Server phải luôn được khởi chạy trước các Client.
   
 Server chỉ có chức năng xử lý, không có giao diện.
   
 Nếu có nhu cầu muốn thay đổi cổng trên Server: tìm đến biến port ở đầu class Server và thay đổi giá trị của nó (cổng mặc định là 2003).
-- Client:
+  - Client:
   
 Client nên khởi chạy sau khi Server đã hoạt động ổn định (khi Server xuất ra màn hình dòng chữ “Server is ready…”).
   
